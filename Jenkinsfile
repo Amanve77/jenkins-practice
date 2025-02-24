@@ -5,14 +5,14 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "Checkout the source code from the Git repository"
-                //git 'https://github.com/yourusername/yourrepository.git'
+                https://github.com/Amanve77/jenkins-practice.git
             }
         }
 
         stage('Build') {
             steps {
                 echo "Execute build commands or scripts"
-                //sh 'your-build-command-or-script.sh'
+                ./HelloWorld.py
             }
         }
 
